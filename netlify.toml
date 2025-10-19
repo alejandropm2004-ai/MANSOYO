@@ -1,0 +1,8 @@
+[build]
+publish = "web_demo"
+
+# SPA fallback: todas las rutas apuntan a index.html
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
